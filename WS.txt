@@ -1,0 +1,60 @@
+Web Service
+-Servidor-Cliente
+-Protocolos para intercambiar info
+-Tecnología de SOA
+Tipos: 1.SOAP WS
+            2.RESTful WS
+
+WS components:
+1.SOAP (Protocolo simple de acceso a datos)
+2.WSDL (Descripción de lenguaje de servicios web)
+3.UDDI (Descripción universal, descubrir e integrar)
+
+SOAP WS
+Basado en XML para acceder a WS.
+Ventajas: 1.Define su propia seguridad
+	   2.Multilples lenguajes
+Desventajas: 1.Lento
+	         2.Depende de WSDL
+RESTful WS
+Estilo arquitectónico.
+Ventajas: 1.Rapido
+	   2.Multiples lenguajes
+	   3.Puede usas SOAP
+	   4.Permite diferentes formatos de datos
+SOA (service oriented architecture)
+Patrón de diseño, diseñado para proporcionar servicios.
+-Servicio: Función que representa la unidad funcional.
+-Conexión de servicio: Service request - service response
+
+Java WS.
+Realiza la comunicación a través de WSDL, código en soap o restful.
+Api soap: JAX-WS
+Api restful: JAX-RS
+
+
+
+
+HTTP STATUS CODES.
+200 OK
+La solicitud ha tenido éxito.
+201 CREATED
+Solicitud cumplida y creación de nuevo recurso.
+204 NO CONTENT
+Proceso bien la solicitud pero no devuelve nada.
+304 NOT MODIFIED
+El recurso no ha sido modificado, se usa en condicional get.
+400 BAD REQUEST
+Mala sintaxis en la solicitud.
+401 UNAUTHORIZED
+Se requiere autenticación de usuario.
+403 FORBIDDEN
+El servidor no quiere cumplir con la solicitud.
+404 NOT FOUND
+El servidor no encuentra coincidencia con la URL solicitada.
+409 CONFLICT
+No se completó la solicitud debido a un conflicto con el recurso.
+500 INTERNAL SERVER ERROR
+El servidor no puede cumplir con la solicitud.
+
+

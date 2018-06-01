@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajedrez UDEM</title>
+
+	<style>
+
+div > div{
+	width: 30px;	
+	height: 30px;
+	border: 1px black solid;
+	display: table-cell;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}	
+
+body > div{
+	display: table-row;
+}
+/* Color casillas grises */
+div:nth-child(odd) > div:nth-child(even){
+	background-color: grey;
+}
+
+div:nth-child(even) > div:nth-child(odd){
+	background-color: grey;
+}
+/* Color casillas blancas */
+div:nth-child(even) > div:nth-child(even){
+	background-color: white;
+}
+
+div:nth-child(odd) > div:nth-child(odd){
+	background-color: white;
+}
+
+div > div:hover{
+	background-color: beige !important;
+}
+
+	</style>
+</head>
+<body>
+
+	<div>
+	<div>&#9820</div>
+	<div>&#9822</div>
+	<div>&#9821</div>
+	<div>&#9819</div>
+	<div>&#9818</div>
+	<div>&#9821</div>
+	<div>&#9822</div>
+	<div>&#9820</div>
+	</div>
+	<div>
+	<div>&#9823</div>
+	<div>&#9823</div>
+	<div>&#9823</div>
+	<div>&#9823</div>
+	<div>&#9823</div>
+	<div>&#9823</div>
+	<div>&#9823</div>
+	<div>&#9823</div>
+	</div>
+	<div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	</div>
+	<div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>	
+	</div>
+	<div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>	
+	</div>
+	<div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	</div>
+	<div>
+	<div>&#9817</div>
+	<div>&#9817</div>
+	<div>&#9817</div>
+	<div>&#9817</div>
+	<div>&#9817</div>
+	<div>&#9817</div>
+	<div>&#9817</div>
+	<div>&#9817</div>
+	</div>
+	<div>
+	<div>&#9814</div>
+	<div>&#9816</div>
+	<div>&#9815</div>
+	<div>&#9813</div>
+	<div>&#9812</div>
+	<div>&#9815</div>
+	<div>&#9816</div>
+	<div>&#9814</div>
+	</div>
+</body>
+</html>
