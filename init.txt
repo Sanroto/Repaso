@@ -1,0 +1,7 @@
+cd: entrar a carpete
+npm init: Inicializar
+en license poner MIT
+nmp i express -S: crea modulos
+nmp i -S body-parser: Para poder conectar
+nmp i -S fs: Para los archivos
+node index.js: Para correr servidor
