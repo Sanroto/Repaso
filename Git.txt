@@ -1,0 +1,12 @@
+1.Crear un repositorio
+2.Abrir la terminal de git hub here 
+3.Clonarlo (git clone mas el enlace de github)
+4.Agrego los archivos a la carpeta clonada 
+5.Entro en la carpeta creada ( cd name/)
+6. Ls para ver que hay en la carpeta
+7. Para agregar todo uso (git add –A)
+8.Para agregar 1 archivo uso (git add name.txt)
+9.Lo miro con git status
+10.Genero un comit con git commit –m “Comentario”
+11.Para descargar uso git pull
+12.Para subir todo uso git push.
